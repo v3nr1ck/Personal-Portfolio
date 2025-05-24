@@ -164,16 +164,6 @@ export default function Portfolio() {
                 15 years of experience building world-class products at Fortune 5 companies. Passionate about creating
                 user-centered solutions that drive business impact at scale.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-gray-900 hover:bg-gray-800">
-                  <Mail className="w-4 h-4 mr-2" />
-                  Get in touch
-                </Button>
-                <Button variant="outline" size="lg">
-                  <Download className="w-4 h-4 mr-2" />
-                  Download Resume
-                </Button>
-              </div>
             </div>
             <div className="relative">
               <Image
@@ -196,9 +186,9 @@ export default function Portfolio() {
               <h2 className="text-4xl font-bold text-gray-900 mb-8">About Me</h2>
               <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
                 <p>
-                  I'm a seasoned product leader with 15 years of experience building and scaling products that serve
+                  I'm a seasoned product leader with 15 years of experience building and scaling products that delight
                   millions of users. Currently serving as Principal Product Manager at a Fortune 5 company, where I lead
-                  cross-functional teams to deliver solutions that serve the user.
+                  cross-functional teams to deliver solutions that delight my users.
                 </p>
                 <p>
                   My expertise spans product strategy, user research, data analytics, program management, and
@@ -291,39 +281,6 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Articles Section */}
-      <section id="articles" className="py-20 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Published Articles</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Sharing insights on product management, leadership, and industry trends
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {articles.map((article, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow">
-                <CardContent className="p-6">
-                  <div className="flex items-center justify-between mb-3">
-                    <Badge variant="outline">{article.publication}</Badge>
-                    <span className="text-sm text-gray-500">{article.date}</span>
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3 leading-tight">{article.title}</h3>
-                  <p className="text-gray-600 mb-4 leading-relaxed">{article.description}</p>
-                  <Link
-                    href={article.url}
-                    className="inline-flex items-center text-gray-900 font-medium hover:text-gray-600 transition-colors"
-                  >
-                    Read article
-                    <ArrowUpRight className="w-4 h-4 ml-1" />
-                  </Link>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Contact Section */}
       <section id="contact" className="py-20">
@@ -352,12 +309,6 @@ export default function Portfolio() {
                       linkedin.com/in/jamesven
                     </Link>
                   </div>
-                  <div className="flex items-center gap-3">
-                    <Twitter className="w-5 h-5 text-gray-600" />
-                    <Link href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
-                      @sarahchen_pm
-                    </Link>
-                  </div>
                 </div>
               </div>
 
@@ -381,7 +332,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="py-8 border-t border-gray-100">
         <div className="max-w-6xl mx-auto px-6 text-center text-gray-600">
-          <p>&copy; 2024 Sarah Chen. All rights reserved.</p>
+          <p>&copy; 2025 James Venrick. All rights reserved.</p>
         </div>
       </footer>
     </div>
