@@ -1,8 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowUpRight, Download, Mail, Linkedin, Twitter } from "lucide-react"
-
-import { Button } from "@/components/ui/button"
+import { Mail, Linkedin } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { ContactForm } from "@/components/contact-form"
@@ -13,7 +11,8 @@ export default function Portfolio() {
       title: "Deployed Real-Time IoT Monitoring & Alerting Application",
       description:
         "Led the complete redesign of Walmart's Massive IoT alerting system resulting in 62.5% reduction in product loss.",
-      image: "https://corporate.walmart.com/content/corporate/en_us/news/2021/01/14/how-walmart-leverages-iot-to-keep-your-ice-cream-frozen/jcr:content/newsimage.img.png/1692736581978.png",
+      image:
+        "https://corporate.walmart.com/content/corporate/en_us/news/2021/01/14/how-walmart-leverages-iot-to-keep-your-ice-cream-frozen/jcr:content/newsimage.img.png/1692736581978.png",
       tags: ["Product Strategy", "UX Research", "User Empathy"],
       metrics: ["62.5% Reduction", "$1b Revenue", "1.2M Users"],
       year: "2023",
@@ -27,7 +26,7 @@ export default function Portfolio() {
       metrics: ["35,000% ↑ Engagement", "1.2M Users"],
       year: "2022",
     },
-        {
+    {
       title: "Launched Frontier’s 10M-Home Fiber Expansion Strategy",
       description:
         "Led network strategy and deployment planning for Frontier Communications’ accelerated fiber buildout, targeting 10 million locations by 2025. Directed infrastructure investment, vendor selection, and deployment prioritization to scale fiber-to-the-premises (FTTP) across 25 states. This initiative positioned Frontier as a leading fiber broadband provider, delivering symmetrical gigabit speeds and supporting the company's transformation into a fiber-first business.",
@@ -46,42 +45,46 @@ export default function Portfolio() {
       year: "2021",
     },
 
-     {
+    {
       title: "Drove End-to-End Launch of DISH MVDDS Service",
       description:
         "Serve as Site Acquisition Manager and Network Deployment Lead for DISH Network’s Multichannel Video and Data Distribution Service (MVDDS) initiative. Lead end-to-end deployment activities including rooftop lease negotiations, equipment provisioning, and site coordination. Successfully broker multi-year agreements with partners and property owners, ensuring scalable access across urban and suburban footprints. Oversee user equipment delivery and provisioning workflows, maintain data integrity across deployment systems, and manage key relationships between DISH and third-party installation and service partners.",
-      image: "https://qtxasset.com/cdn-cgi/image/w=850,h=478,f=auto,fit=crop,g=0.5x0.5/https://qtxasset.com/quartz/qcloud4/media/image/fiercewireless/1625672576/dish800.jpg/dish800.jpg?VersionId=EpsGvukNLMYVdO9CioHdMOPB6HMKh.Pk",
+      image:
+        "https://qtxasset.com/cdn-cgi/image/w=850,h=478,f=auto,fit=crop,g=0.5x0.5/https://qtxasset.com/quartz/qcloud4/media/image/fiercewireless/1625672576/dish800.jpg/dish800.jpg?VersionId=EpsGvukNLMYVdO9CioHdMOPB6HMKh.Pk",
       tags: ["Mobile Strategy", "Network Deployment", "Contract Negotiations"],
       metrics: ["10b+ investment save"],
       year: "2021",
     },
-     {
+    {
       title: "Fixed 4G TDD-LTE Pilot – Product Launch & Performance Lead",
       description:
         "Led the pilot launch of a Fixed 4G TDD-LTE product in partnership with nTelos and Sprint, acting as the MVNO business owner. Defined and tracked KPIs across customer acquisition, break/fix incidents, product stability, attrition, profitability, and frontline performance. Spearheaded the design and development of a long-term TR-069/CWMP solution to improve device provisioning, monitoring, and management across LTE networks. Balanced technical execution with customer insights to validate market readiness and inform long-term strategy.",
-      image: "https://qtxasset.com/cdn-cgi/image/w=850,h=478,f=auto,fit=crop,g=0.5x0.5/https://qtxasset.com/quartz/qcloud4/media/image/dishnetwork.jpg?VersionId=Ai7iDtDf6b8f8t.RQZUIOJpKIT10.Uvi",
+      image:
+        "https://qtxasset.com/cdn-cgi/image/w=850,h=478,f=auto,fit=crop,g=0.5x0.5/https://qtxasset.com/quartz/qcloud4/media/image/dishnetwork.jpg?VersionId=Ai7iDtDf6b8f8t.RQZUIOJpKIT10.Uvi",
       tags: ["Mobile Strategy", "Cross-Platform", "Growth"],
       year: "2014",
     },
-     {
+    {
       title: "DISH International/Sling TV",
       description:
         "Led strategy and execution for Sling TV, one of the first live OTT streaming platforms in the U.S. Oversaw launch features including customizable channel packages, multi-device support, and real-time streaming enhancements. Partnered with cross-functional teams to drive user growth to over 2 million subscribers and helped position Sling TV as an industry leader with over $1.8B in annual revenue. Contributed to award-winning innovation recognized by a Technology & Engineering Emmy®, while optimizing roadmap prioritization, user experience, and platform scalability.",
-      image: "https://yt3.googleusercontent.com/JRDiGJJgf-l9nhW_XA8Y5-5IUnGKdDu5VlRcaosA8gRTPTxfnJh0w-QfoOa2Le5uHGQpS8V_Ruc=s900-c-k-c0x00ffffff-no-rj",
+      image:
+        "https://yt3.googleusercontent.com/JRDiGJJgf-l9nhW_XA8Y5-5IUnGKdDu5VlRcaosA8gRTPTxfnJh0w-QfoOa2Le5uHGQpS8V_Ruc=s900-c-k-c0x00ffffff-no-rj",
       tags: ["Mobile Strategy", "Cross-Platform", "Growth"],
       metrics: ["1.8b Annual Revenue", "4.8★ App Rating", "10M Downloads"],
       year: "2014",
     },
 
-     {
+    {
       title: "Launched Cryptocurrency Payment Support at DISH",
       description:
         "Led the integration of Bitcoin Cash as a payment option for DISH Network customers, expanding upon the company's initial acceptance of Bitcoin in 2014. Transitioned payment processing to BitPay, enabling secure, real-time cryptocurrency transactions for subscriptions and pay-per-view services. This initiative enhanced customer payment flexibility and positioned DISH as a pioneer in adopting blockchain payment solutions within the pay-TV industry.",
-      image: "https://static.cryptobriefing.com/wp-content/uploads/2018/08/02100406/Dish-Network-Will-Accept-Bitcoin-Cash-After-Partnering-With-BitPay-800x420.jpg",
+      image:
+        "https://static.cryptobriefing.com/wp-content/uploads/2018/08/02100406/Dish-Network-Will-Accept-Bitcoin-Cash-After-Partnering-With-BitPay-800x420.jpg",
       tags: ["Mobile Strategy", "Cross-Platform", "Growth"],
       year: "2014",
     },
-     {
+    {
       title: "Launched Hopper with Sling – DISH’s Award-Winning Whole-Home DVR",
       description:
         "Led the product launch of the DISH Hopper with Sling, the industry’s first whole-home HD DVR with integrated place-shifting and multi-device streaming. Defined product vision, shaped feature roadmap, and drove cross-functional execution from concept to CES debut. Delivered a category-defining experience that earned “Best of Show” at CES 2013, positioning DISH as an innovation leader in consumer entertainment technology.",
@@ -89,7 +92,7 @@ export default function Portfolio() {
       tags: ["Mobile Strategy", "Cross-Platform", "Growth"],
       year: "2013",
     },
-       {
+    {
       title: "dishNET Product Launch Lead – Satellite Internet for Rural Markets",
       description:
         "Led the product launch of dishNET, DISH Network’s VSAT satellite internet service for rural markets. Prioritized features for scalability and reliability, and partnered with engineering and operations to drive deployment. Focused on user acquisition, service performance, and long-term product viability within a $500m+ revenue portfolio.",
@@ -98,7 +101,7 @@ export default function Portfolio() {
       metrics: ["0-1m customers in 1 year", "1b+ annual revenue generation"],
       year: "2012",
     },
-    ]
+  ]
 
   const articles = [
     {
@@ -189,8 +192,8 @@ export default function Portfolio() {
                 </p>
                 <p>
                   My expertise spans product strategy, user research, data analytics, program management, and
-                  go-to-market execution. I've successfully launched products that generated over $1b in annual revenue and
-                  have been recognized with multiple industry awards.
+                  go-to-market execution. I've successfully launched products that generated over $1b in annual revenue
+                  and have been recognized with multiple industry awards.
                 </p>
                 <p>I'm passionate about mentoring the next generation of product managers and eliminating apathy.</p>
               </div>
@@ -251,16 +254,19 @@ export default function Portfolio() {
                       <h3 className="text-2xl font-bold text-gray-900 mb-4">{project.title}</h3>
                       <p className="text-gray-600 mb-6 leading-relaxed">{project.description}</p>
 
-                      <div className="mb-6">
-                        <h4 className="font-semibold text-gray-900 mb-2">Key Results</h4>
-                        <div className="flex flex-wrap gap-2">
-                          {project.metrics.map((metric, i) => (
-                            <Badge key={i} className="bg-green-100 text-green-800 hover:bg-green-100">
-                              {metric}
-                            </Badge>
-                          ))}
+                      {/* Key Results (render only if metrics array exists & has items) */}
+                      {project.metrics?.length ? (
+                        <div className="mb-6">
+                          <h4 className="font-semibold text-gray-900 mb-2">Key Results</h4>
+                          <div className="flex flex-wrap gap-2">
+                            {project.metrics.map((metric, i) => (
+                              <Badge key={i} className="bg-green-100 text-green-800 hover:bg-green-100">
+                                {metric}
+                              </Badge>
+                            ))}
+                          </div>
                         </div>
-                      </div>
+                      ) : null}
 
                       <div className="flex flex-wrap gap-2">
                         {project.tags.map((tag, i) => (
@@ -277,7 +283,6 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-
 
       {/* Contact Section */}
       <section id="contact" className="py-20">
