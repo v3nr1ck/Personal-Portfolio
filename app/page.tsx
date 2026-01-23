@@ -8,6 +8,15 @@ import { ContactForm } from "@/components/contact-form"
 export default function Portfolio() {
   const projects = [
     {
+      title: "Lead Walmart Launch of Digital Twin & Physical AI",
+      description:
+        "Led the end-to-end strategy and launch of a massive-scale Digital Twin ecosystem, integrating real-time IoT data into a high-fidelity 2D and 3D visualization platform. Directed the cross-functional effort to map the physical enterprise into a digital environment, enabling predictive maintenance, virtual walkthroughs, and optimized spatial planning across the Walmart global footprint. This platform serves as the single source of truth for physical operations, bridging the gap between field-level hardware and executive-level strategic analysis.",
+      image: "https://i.imgur.com/Oemqn2W.jpeg",
+      tags: ["Digital Twin", "3D Visualization", "IoT", "Enterprise Strategy", "Predictive Analytics"],
+      metrics: ["Enterprise-Scale Visualization", "Reduced On-Site Travel", "Real-Time IoT Integration"],
+      year: "2024-5",
+    },
+    {
       title: "Deployed Real-Time IoT Monitoring & Alerting Application",
       description:
         "Led the complete redesign of Walmart's Massive IoT alerting system resulting in 62.5% reduction in product loss.",
@@ -238,13 +247,13 @@ export default function Portfolio() {
             {projects.map((project, index) => (
               <Card key={index} className="overflow-hidden border-0 shadow-lg">
                 <CardContent className="p-0">
-                  <div className={`grid lg:grid-cols-2 gap-0 ${index % 2 === 1 ? "lg:grid-flow-col-dense" : ""}`}>
-                    <div className={`relative h-80 lg:h-auto ${index % 2 === 1 ? "lg:col-start-2" : ""}`}>
+                  <div className={`grid lg:grid-cols-2 gap-0 items-center ${index % 2 === 1 ? "lg:grid-flow-col-dense" : ""}`}>
+                    <div className={`relative h-80 lg:h-96 ${index % 2 === 1 ? "lg:col-start-2" : ""}`}>
                       <Image
                         src={project.image || "/placeholder.svg"}
                         alt={project.title}
                         fill
-                        className="object-cover"
+                        className="object-cover object-center"
                       />
                     </div>
                     <div className="p-8 lg:p-12 flex flex-col justify-center">
