@@ -167,7 +167,7 @@ export default function Portfolio() {
             </div>
             <div className="relative">
               <Image
-                src="https://media.licdn.com/dms/image/v2/D5603AQENHKTkoKHyHQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1676768888655?e=1753315200&v=beta&t=Bx_0QATeB-4GnuvvmSQjVf_GzEb0EylrgootyuvkF2E"
+                src="https://i.imgur.com/FVAowhG.jpeg"
                 alt="James Venrick"
                 width={500}
                 height={600}
