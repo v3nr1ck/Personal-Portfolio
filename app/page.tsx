@@ -12,7 +12,7 @@ export default function Portfolio() {
       description:
         "Led the complete redesign of Walmart's Massive IoT alerting system resulting in 62.5% reduction in product loss.",
       image:
-        "https://corporate.walmart.com/content/corporate/en_us/news/2021/01/14/how-walmart-leverages-iot-to-keep-your-ice-cream-frozen/jcr:content/newsimage.img.png/1692736581978.png",
+        "https://i.imgur.com/nqBn8PQ.png",
       tags: ["Product Strategy", "UX Research", "User Empathy"],
       metrics: ["62.5% Reduction", "$1b Revenue", "1.2M Users"],
       year: "2023",
