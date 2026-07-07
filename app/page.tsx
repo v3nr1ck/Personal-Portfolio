@@ -83,7 +83,7 @@ export default function Portfolio() {
       title: "Built Narrowband IoT / LoRaWAN Network for Enterprise Scale",
       description:
         "Directed the Narrowband IoT and LoRaWAN network build-out at DISH Network to support massive-scale IoT deployments across agriculture, industrial, and enterprise environments — including site infrastructure, hardware, manufacturing partnerships, analytics integrations, and third-party platform connectivity.",
-      image: "https://i.imgur.com/1k9YbNa.jpeg",
+      image: "https://i.imgur.com/SKnxtSq.jpeg",
       tags: ["NB-IoT", "LoRaWAN", "IoT Infrastructure", "M2M Communications"],
       metrics: ["Massive-Scale IoT Deployments", "Agriculture & Industrial", "End-to-End Network Build"],
       year: "2018",
