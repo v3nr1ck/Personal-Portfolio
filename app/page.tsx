@@ -29,7 +29,7 @@ export default function Portfolio() {
       title: "Delivered Walmart's First Indoor Positioning (mGPS) Solution",
       description:
         "Launched Walmart's first indoor positioning platform (mGPS), enabling spatial awareness and location intelligence inside retail facilities. Connected physical store environments to digital operational systems — a foundational capability for downstream Physical AI and Digital Twin initiatives.",
-      image: "https://i.imgur.com/nqBn8PQ.png",
+      image: "https://i.imgur.com/iBDNw0C.jpeg",
       tags: ["Indoor Positioning", "Spatial Intelligence", "IoT", "Enterprise Platforms"],
       metrics: ["First-to-Market at Walmart", "In-Store Spatial Awareness", "Physical-Digital Integration"],
       year: "2023",
@@ -47,7 +47,7 @@ export default function Portfolio() {
       title: "Founded Karamazov Group — Executive Advisory & Technical Consulting",
       description:
         "Founded Karamazov Group as Principal Consultant, providing executive advisory on product strategy, enterprise architecture, digital transformation, IoT platforms, AI systems, computer vision, and Physical AI — including hands-on technical validation and model fine-tuning for select clients.",
-      image: "/placeholder.svg",
+      image: "https://i.imgur.com/dukHNB2.jpeg",
       tags: ["Executive Advisory", "Physical AI", "Enterprise Architecture", "Digital Transformation"],
       metrics: ["Founder & Principal Consultant", "IoT & AI Systems", "Ongoing Practice"],
       year: "2021",
@@ -117,7 +117,7 @@ export default function Portfolio() {
       title: "Launched dishNET Wireline — DSL Broadband Across 26 States",
       description:
         "Led the full operational and technical launch of dishNET Wireline, DISH Network's DSL broadband service spanning 26 states. Owned end-to-end product delivery including network integration, customer provisioning, installation workflows, and nationwide support frameworks for a new wireline connectivity business built from scratch.",
-      image: "https://i.imgur.com/X5y21fo.jpeg",
+      image: "https://i.imgur.com/L1sdXjk.jpeg",
       tags: ["DSL Broadband", "Wireline", "Product Launch", "Nationwide Operations"],
       metrics: ["26-State Launch", "End-to-End Ownership", "New Connectivity Business"],
       year: "2014",
@@ -135,7 +135,7 @@ export default function Portfolio() {
       title: "Launched DISH Anywhere (DISHOnline.com)",
       description:
         "Led the operationalization of DISH Anywhere and DISHOnline.com — integrating live streaming, video-on-demand, Blockbuster early-release content, and Sling capabilities into a unified customer experience accessible across devices. Connected the Hopper platform to the cloud and defined the end-to-end product and operations model for place-shifted television.",
-      image: "https://i.imgur.com/82lw0SI.jpeg",
+      image: "https://i.imgur.com/8FB1feQ.jpeg",
       tags: ["OTT", "Live Streaming", "VOD", "Cross-Platform"],
       metrics: ["Live + On-Demand Integration", "Multi-Device Access", "Unified Streaming Experience"],
       year: "2013",
@@ -144,7 +144,7 @@ export default function Portfolio() {
       title: "Founded OnTech Smart Services — Smart-Home Installation Business",
       description:
         "Helped found and scale OnTech Smart Services, DISH Network's internal smart-home installation business. Built the service from zero — defining product strategy, service catalog, installation and support models, customer experience standards, and nationwide operational processes for TV mounting, device setup, and home technology services.",
-      image: "https://i.imgur.com/Gi1klTG.jpeg",
+      image: "https://i.imgur.com/E6XIcre.jpeg",
       tags: ["Smart Home", "Service Business", "Operations", "Customer Experience"],
       metrics: ["Built from Zero", "Nationwide Service Model", "Installation & Support Operations"],
       year: "2012",
