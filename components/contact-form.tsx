@@ -48,28 +48,60 @@ export function ContactForm() {
       ...prev,
       subject: value,
     }))
+    if (status.submitted || status.error) {
+      setStatus({
+        submitting: false,
+        submitted: false,
+        error: false,
+        message: "",
+      })
+    }
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setStatus((prev) => ({ ...prev, submitting: true }))
+
+    const formId = process.env.NEXT_PUBLIC_FORMSPREE_FORM_ID
+    if (!formId) {
+      setStatus({
+        submitting: false,
+        submitted: false,
+        error: true,
+        message: "Contact form is not configured yet. Please email me directly at venrick@gmail.com.",
+      })
+      return
+    }
+
+    if (!formData.subject) {
+      setStatus({
+        submitting: false,
+        submitted: false,
+        error: true,
+        message: "Please select a subject before sending your message.",
+      })
+      return
+    }
+
+    setStatus((prev) => ({ ...prev, submitting: true, error: false, message: "" }))
 
     try {
-      // Replace with your actual Formspree endpoint
-      const response = await fetch("https://formspree.io/f/xbloengp", {
+      const payload = new FormData()
+      payload.append("name", formData.name)
+      payload.append("email", formData.email)
+      payload.append("_replyto", formData.email)
+      if (formData.company) payload.append("company", formData.company)
+      payload.append("subject", formData.subject)
+      payload.append("message", formData.message)
+
+      const response = await fetch(`https://formspree.io/f/${formId}`, {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          Accept: "application/json",
         },
-        body: JSON.stringify({
-          name: formData.name,
-          email: formData.email,
-          company: formData.company,
-          subject: formData.subject,
-          message: formData.message,
-          _replyto: formData.email,
-        }),
+        body: payload,
       })
+
+      const result = await response.json().catch(() => null)
 
       if (response.ok) {
         setStatus({
@@ -86,14 +118,21 @@ export function ContactForm() {
           message: "",
         })
       } else {
-        throw new Error("Failed to send message")
+        const errorMessage =
+          result?.errors?.map((err: { message: string }) => err.message).join(" ") ||
+          "Failed to send message"
+        throw new Error(errorMessage)
       }
     } catch (error) {
+      const detail = error instanceof Error ? error.message : ""
       setStatus({
         submitting: false,
         submitted: false,
         error: true,
-        message: "Sorry, there was an error sending your message. Please try again or email me directly.",
+        message:
+          detail && detail !== "Failed to send message"
+            ? detail
+            : "Sorry, there was an error sending your message. Please try again or email me directly.",
       })
     }
   }
@@ -165,7 +204,7 @@ export function ContactForm() {
 
           <div className="space-y-2">
             <Label htmlFor="subject">Subject *</Label>
-            <Select onValueChange={handleSelectChange} required>
+            <Select value={formData.subject || undefined} onValueChange={handleSelectChange}>
               <SelectTrigger>
                 <SelectValue placeholder="What would you like to discuss?" />
               </SelectTrigger>
