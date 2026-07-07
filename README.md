@@ -1,30 +1,5 @@
-# Personal portfolio website
+# James Venrick — Personal Portfolio
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Portfolio site for [vnrk.xyz](https://vnrk.xyz).
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/james-projects-1c9a9e38/v0-personal-portfolio-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/bYt7TuQkAzZ)
-
-## Overview
-
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
-
-## Deployment
-
-Your project is live at:
-
-**[https://vercel.com/james-projects-1c9a9e38/v0-personal-portfolio-website](https://vercel.com/james-projects-1c9a9e38/v0-personal-portfolio-website)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/bYt7TuQkAzZ](https://v0.dev/chat/projects/bYt7TuQkAzZ)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Deployed via GitHub Actions on push to `main`.
