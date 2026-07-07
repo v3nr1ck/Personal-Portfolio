@@ -30,7 +30,7 @@ export default function Portfolio() {
       title: "Built End-to-End Ticketing System for Technician & IT Escalation",
       description:
         "Spearheaded the research, design, and development of a single-point-of-entry ticketing system with 1m+ users, 10m+ submissions, and 100m+ interactions .",
-      image: "https://play-lh.googleusercontent.com/-Siv1LmkCkcZDkVl4MyX7WP9Ra1xuFbDhdUTsM2sA-5oxG7FyyMfj2brmsALmtJS7g",
+      image: "https://i.imgur.com/MzoNpsK.jpeg",
       tags: ["Machine Learning", "Data Analytics", "Personalization"],
       metrics: ["35,000% ↑ Engagement", "1.2M Users"],
       year: "2022",
@@ -39,7 +39,7 @@ export default function Portfolio() {
       title: "Launched Frontier’s 10M-Home Fiber Expansion Strategy",
       description:
         "Led network strategy and deployment planning for Frontier Communications’ accelerated fiber buildout, targeting 10 million locations by 2025. Directed infrastructure investment, vendor selection, and deployment prioritization to scale fiber-to-the-premises (FTTP) across 25 states. This initiative positioned Frontier as a leading fiber broadband provider, delivering symmetrical gigabit speeds and supporting the company's transformation into a fiber-first business.",
-      image: "https://mms.businesswire.com/media/20220222005197/en/1365478/4/2g-girl.jpg?download=1",
+      image: "https://i.imgur.com/tlzhiHe.jpeg",
       tags: ["Mobile Strategy", "Cross-Platform", "Growth"],
       metrics: ["$689m Annual revenue increase", "SMB Business Segment Capture"],
       year: "2021",
@@ -48,7 +48,7 @@ export default function Portfolio() {
       title: "Delivered Industry-First 5G SA Open RAN Network to Production",
       description:
         "Led the end-to-end launch of the world’s first 5G Standalone (SA) Open RAN network, integrating disaggregated radio and core components across multiple vendors into a fully cloud-native, carrier-grade architecture. Drove cross-functional alignment between engineering, vendor partners, and operations to overcome industry-first challenges in interoperability, orchestration, and performance optimization. Successfully transitioned from lab validation to commercial deployment, setting a global benchmark for open, flexible, and scalable next-gen wireless infrastructure.",
-      image: "https://mma.prnewswire.com/media/2102459/June5_ProjectGenesisMap.jpg?w=2700",
+      image: "https://i.imgur.com/1k9YbNa.jpeg",
       tags: ["Mobile Strategy", "Cross-Platform", "Growth"],
       metrics: ["0-7.2m Customers in 3 years"],
       year: "2021",
@@ -58,8 +58,7 @@ export default function Portfolio() {
       title: "Drove End-to-End Launch of DISH MVDDS Service",
       description:
         "Serve as Site Acquisition Manager and Network Deployment Lead for DISH Network’s Multichannel Video and Data Distribution Service (MVDDS) initiative. Lead end-to-end deployment activities including rooftop lease negotiations, equipment provisioning, and site coordination. Successfully broker multi-year agreements with partners and property owners, ensuring scalable access across urban and suburban footprints. Oversee user equipment delivery and provisioning workflows, maintain data integrity across deployment systems, and manage key relationships between DISH and third-party installation and service partners.",
-      image:
-        "https://qtxasset.com/cdn-cgi/image/w=850,h=478,f=auto,fit=crop,g=0.5x0.5/https://qtxasset.com/quartz/qcloud4/media/image/fiercewireless/1625672576/dish800.jpg/dish800.jpg?VersionId=EpsGvukNLMYVdO9CioHdMOPB6HMKh.Pk",
+      image: "https://i.imgur.com/NeiQzGl.jpeg",
       tags: ["Mobile Strategy", "Network Deployment", "Contract Negotiations"],
       metrics: ["10b+ investment save"],
       year: "2021",
@@ -68,8 +67,7 @@ export default function Portfolio() {
       title: "Fixed 4G TDD-LTE Pilot – Product Launch & Performance Lead",
       description:
         "Led the pilot launch of a Fixed 4G TDD-LTE product in partnership with nTelos and Sprint, acting as the MVNO business owner. Defined and tracked KPIs across customer acquisition, break/fix incidents, product stability, attrition, profitability, and frontline performance. Spearheaded the design and development of a long-term TR-069/CWMP solution to improve device provisioning, monitoring, and management across LTE networks. Balanced technical execution with customer insights to validate market readiness and inform long-term strategy.",
-      image:
-        "https://qtxasset.com/cdn-cgi/image/w=850,h=478,f=auto,fit=crop,g=0.5x0.5/https://qtxasset.com/quartz/qcloud4/media/image/dishnetwork.jpg?VersionId=Ai7iDtDf6b8f8t.RQZUIOJpKIT10.Uvi",
+      image: "https://i.imgur.com/X5y21fo.jpeg",
       tags: ["Mobile Strategy", "Cross-Platform", "Growth"],
       year: "2014",
     },
@@ -77,8 +75,7 @@ export default function Portfolio() {
       title: "DISH International/Sling TV",
       description:
         "Led strategy and execution for Sling TV, one of the first live OTT streaming platforms in the U.S. Oversaw launch features including customizable channel packages, multi-device support, and real-time streaming enhancements. Partnered with cross-functional teams to drive user growth to over 2 million subscribers and helped position Sling TV as an industry leader with over $1.8B in annual revenue. Contributed to award-winning innovation recognized by a Technology & Engineering Emmy®, while optimizing roadmap prioritization, user experience, and platform scalability.",
-      image:
-        "https://yt3.googleusercontent.com/JRDiGJJgf-l9nhW_XA8Y5-5IUnGKdDu5VlRcaosA8gRTPTxfnJh0w-QfoOa2Le5uHGQpS8V_Ruc=s900-c-k-c0x00ffffff-no-rj",
+      image: "https://i.imgur.com/82lw0SI.jpeg",
       tags: ["Mobile Strategy", "Cross-Platform", "Growth"],
       metrics: ["1.8b Annual Revenue", "4.8★ App Rating", "10M Downloads"],
       year: "2014",
@@ -88,8 +85,7 @@ export default function Portfolio() {
       title: "Launched Cryptocurrency Payment Support at DISH",
       description:
         "Led the integration of Bitcoin Cash as a payment option for DISH Network customers, expanding upon the company's initial acceptance of Bitcoin in 2014. Transitioned payment processing to BitPay, enabling secure, real-time cryptocurrency transactions for subscriptions and pay-per-view services. This initiative enhanced customer payment flexibility and positioned DISH as a pioneer in adopting blockchain payment solutions within the pay-TV industry.",
-      image:
-        "https://static.cryptobriefing.com/wp-content/uploads/2018/08/02100406/Dish-Network-Will-Accept-Bitcoin-Cash-After-Partnering-With-BitPay-800x420.jpg",
+      image: "https://i.imgur.com/At1mRRl.jpeg",
       tags: ["Mobile Strategy", "Cross-Platform", "Growth"],
       year: "2014",
     },
@@ -97,7 +93,7 @@ export default function Portfolio() {
       title: "Launched Hopper with Sling – DISH’s Award-Winning Whole-Home DVR",
       description:
         "Led the product launch of the DISH Hopper with Sling, the industry’s first whole-home HD DVR with integrated place-shifting and multi-device streaming. Defined product vision, shaped feature roadmap, and drove cross-functional execution from concept to CES debut. Delivered a category-defining experience that earned “Best of Show” at CES 2013, positioning DISH as an innovation leader in consumer entertainment technology.",
-      image: "https://planetdish.com/wp-content/uploads/2017/05/cropped-DISH-Network-Hopper-Favicon.png",
+      image: "https://i.imgur.com/Gi1klTG.jpeg",
       tags: ["Mobile Strategy", "Cross-Platform", "Growth"],
       year: "2013",
     },
@@ -105,7 +101,7 @@ export default function Portfolio() {
       title: "dishNET Product Launch Lead – Satellite Internet for Rural Markets",
       description:
         "Led the product launch of dishNET, DISH Network’s VSAT satellite internet service for rural markets. Prioritized features for scalability and reliability, and partnered with engineering and operations to drive deployment. Focused on user acquisition, service performance, and long-term product viability within a $500m+ revenue portfolio.",
-      image: "https://planetdish.com/wp-content/uploads/2017/04/DISH-Network-DISHnet-Internet.png",
+      image: "https://i.imgur.com/L1sdXjk.jpeg",
       tags: ["Mobile Strategy", "Cross-Platform", "Growth"],
       metrics: ["0-1m customers in 1 year", "1b+ annual revenue generation"],
       year: "2012",
