@@ -147,7 +147,7 @@ export default function Portfolio() {
       image: "https://i.imgur.com/E6XIcre.jpeg",
       tags: ["Smart Home", "Service Business", "Operations", "Customer Experience"],
       metrics: ["Built from Zero", "Nationwide Service Model", "Installation & Support Operations"],
-      year: "2012",
+      year: "2019",
     },
     {
       title: "dishNET Product Launch Lead – Satellite Internet for Rural Markets",
