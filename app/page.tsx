@@ -80,6 +80,15 @@ export default function Portfolio() {
       year: "2021",
     },
     {
+      title: "Founded OnTech Smart Services — Smart-Home Installation Business",
+      description:
+        "Helped found and scale OnTech Smart Services, DISH Network's internal smart-home installation business. Built the service from zero — defining product strategy, service catalog, installation and support models, customer experience standards, and nationwide operational processes for TV mounting, device setup, and home technology services.",
+      image: "https://i.imgur.com/E6XIcre.jpeg",
+      tags: ["Smart Home", "Service Business", "Operations", "Customer Experience"],
+      metrics: ["Built from Zero", "Nationwide Service Model", "Installation & Support Operations"],
+      year: "2019",
+    },
+    {
       title: "Built Narrowband IoT / LoRaWAN Network for Enterprise Scale",
       description:
         "Directed the Narrowband IoT and LoRaWAN network build-out at DISH Network to support massive-scale IoT deployments across agriculture, industrial, and enterprise environments — including site infrastructure, hardware, manufacturing partnerships, analytics integrations, and third-party platform connectivity.",
@@ -139,15 +148,6 @@ export default function Portfolio() {
       tags: ["OTT", "Live Streaming", "VOD", "Cross-Platform"],
       metrics: ["Live + On-Demand Integration", "Multi-Device Access", "Unified Streaming Experience"],
       year: "2013",
-    },
-    {
-      title: "Founded OnTech Smart Services — Smart-Home Installation Business",
-      description:
-        "Helped found and scale OnTech Smart Services, DISH Network's internal smart-home installation business. Built the service from zero — defining product strategy, service catalog, installation and support models, customer experience standards, and nationwide operational processes for TV mounting, device setup, and home technology services.",
-      image: "https://i.imgur.com/E6XIcre.jpeg",
-      tags: ["Smart Home", "Service Business", "Operations", "Customer Experience"],
-      metrics: ["Built from Zero", "Nationwide Service Model", "Installation & Support Operations"],
-      year: "2019",
     },
     {
       title: "dishNET Product Launch Lead – Satellite Internet for Rural Markets",
